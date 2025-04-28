@@ -1,0 +1,97 @@
+/* fonts */
+/* variables */
+/* reset css */
+
+/* global css */
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .big-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+    
+  .hero-text {
+    margin-top: 0px; /* Kalau sebelumnya besar, kurangi */
+    padding-top: 20px; /* Bisa kecilin juga */
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* jarak antar logo */
+  }
+  
+  .social-icons a {
+    font-size: 24px; /* ukuran logo */
+    color: white; /* warna logo */
+  }
+  
+  .social-icons a:hover {
+    color: #127bf3; /* warna saat hover */
+  }
+  
+  .small-title {
+    color: #203046;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right-content img {
+    width: 600px;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .services-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .services-list li {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .stats {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .stat-item {
+    margin-right: 40px;
+  }
+  
+  .stat-item h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .stat-item p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+  }
+  
+:root {
+    --primary-color: #203046; /* atau bisa hex #0000FF */
+  }
+.text-navy {
+    color: var(--primary-color);
+}
+/* css per section */
